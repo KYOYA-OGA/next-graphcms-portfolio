@@ -29,6 +29,11 @@ const Header = () => {
                 <a className="btn btn-ghost btn-sm rounded-btn">Blog</a>
               </Link>
             </li>
+            <li>
+              <Link href="/gallery">
+                <a className="btn btn-ghost btn-sm rounded-btn">Gallery</a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="lg:hidden navbar-end">

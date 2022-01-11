@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
 
 const PortfolioPage = ({ portfolios }) => {
   return (
-    <main className="container max-w-3xl mx-auto px-4 py-5 lg:py-10">
+    <main className="container max-w-3xl mx-auto px-4 py-5 lg:py-10 space-y-5 lg:space-y-8">
       {portfolios.map((item) => {
         return (
           <article key={item.slug}>
