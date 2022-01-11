@@ -26,6 +26,9 @@ export default function Home({ data }) {
       <main className="container max-w-3xl mx-auto px-4">
         <Hero />
         <div className="space-y-5">
+          <h2 className="text-2xl lg:text-4xl font-semibold">
+            Recent Projects
+          </h2>
           {data?.portfolios.map((item) => {
             return (
               <article key={item.slug}>
@@ -65,6 +68,7 @@ export default function Home({ data }) {
         </div>
 
         <div className="mt-5 lg:mt-10 ">
+          <h2 className="text-2xl lg:text-4xl font-semibold">Recent Posts</h2>
           {data?.posts.map((post) => {
             return (
               <div
