@@ -14,11 +14,11 @@ const Header = () => {
                 <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/about">
                 <a className="btn btn-ghost btn-sm rounded-btn">About</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/portfolio">
                 <a className="btn btn-ghost btn-sm rounded-btn">Portfolio</a>
